@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Home"
-    android:background="@drawable/background_of_ui">
+    android:background="@drawable/background_of_ui"
+    android:screenOrientation="portrait">
 
     <TextView
         android:layout_width="344dp"
