@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="@drawable/background_of_ui">
+
+    <TextView
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="720dp"
+        android:fontFamily="@font/athiti_medium"
+        android:text="The Sparks "
+        android:textColor="#fff"
+        android:textSize="40sp"></TextView>
+
+    <TextView
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="659dp"
+        android:fontFamily="@font/athiti_medium"
+        android:text="Foundation"
+        android:textColor="#fff"
+        android:textSize="40sp"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="467dp"
+        app:srcCompat="@drawable/com_facebook_profile_picture_blank_square" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="153dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="232dp"
+        android:layout_marginBottom="370dp"
+        android:textColor="#000"
+        android:fontFamily="@font/athiti_medium"
+        android:text="Username" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="273dp"
+        android:fontFamily="@font/athiti_medium"
+        android:textColor="#000"
+        android:text="Email" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="314dp"
+        android:background="@drawable/layout_bg"
+        android:fontFamily="@font/athiti"
+        android:padding="15dp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="211dp"
+        android:background="@drawable/layout_bg"
+        android:fontFamily="@font/athiti"
+        android:padding="15dp"
+        android:textColor="@color/colorPrimaryDark" />
+
+
+</RelativeLayout>
